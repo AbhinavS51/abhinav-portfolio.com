@@ -13,9 +13,7 @@
             background-size: cover;
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            height: 100%;
             margin: 0;
-            overflow: hidden;
         }
         .profile-img {
             width: 150px;
@@ -25,9 +23,13 @@
             margin-bottom: 20px;
         }
         .top-bar {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.8);
             padding: 10px 0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
         .top-bar a {
             margin: 0 15px;
@@ -59,8 +61,12 @@
             padding: 30px;
             border-radius: 15px;
             display: inline-block;
-            margin-top: 20px;
+            margin-top: 80px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
         }
         h1, h2 {
             font-weight: 600;
@@ -68,23 +74,20 @@
         a {
             color: #ffcc00;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
     </style>
 </head>
 <body>
 
-    <div class="container text-center">
-        <div class="top-bar d-flex justify-content-center">
-            <a href="index.html"><img src="home-icon.jpg" alt="Home"> Home</a>
-            <a href="about.html"><img src="about.JPG" alt="About"> About</a>
-            <a href="projects.html"><img src="projects.JPG" alt="Projects"> Projects</a>
-            <a href="experience.html"><img src="experience.JPG" alt="Experience"> Experience</a>
-            <a href="certificates.html"><img src="cert.JPG" alt="Certificates"> Certificates</a>
-            <a href="apart-from-resume.html"><img src="apart.JPG" alt="Apart"> Something Apart from Resume</a>
-        </div>
+    <div class="top-bar d-flex justify-content-center">
+        <a href="index.html"><img src="home-icon.jpg" alt="Home"> Home</a>
+        <a href="about.html"><img src="about.JPG" alt="About"> About</a>
+        <a href="projects.html"><img src="projects.JPG" alt="Projects"> Projects</a>
+        <a href="experience.html"><img src="experience.JPG" alt="Experience"> Experience</a>
+        <a href="certificates.html"><img src="cert.JPG" alt="Certificates"> Certificates</a>
+        <a href="apart-from-resume.html"><img src="apart.JPG" alt="Apart"> Something Apart from Resume</a>
+    </div>
+
+    <div class="container">
         <div class="content-wrapper">
             <h1>About Me</h1>
             <img src="self-photo.png" alt="Abhinav Sharma" class="profile-img">
