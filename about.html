@@ -17,10 +17,48 @@
             margin: 0;
             overflow: hidden;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-bottom: 20px;
+        }
+        .top-bar {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .top-bar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s;
+        }
+        .top-bar a:hover {
+            color: #ffcc00;
+        }
+        .top-bar img {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
         .content-wrapper {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 30px;
             border-radius: 15px;
+            display: inline-block;
             margin-top: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -34,37 +72,24 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        .top-bar {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .top-bar a {
-            color: #fff;
-            font-weight: 600;
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 2px solid #fff;
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
 
-    <div class="container mt-5">
-        <div class="top-bar d-flex justify-content-start">
-            <a href="index.html">⬅️ Back to Main Page</a>
+    <div class="container text-center">
+        <div class="top-bar d-flex justify-content-center">
+            <a href="index.html"><img src="home-icon.jpg" alt="Home"> Home</a>
+            <a href="about.html"><img src="about.JPG" alt="About"> About</a>
+            <a href="projects.html"><img src="projects.JPG" alt="Projects"> Projects</a>
+            <a href="experience.html"><img src="experience.JPG" alt="Experience"> Experience</a>
+            <a href="certificates.html"><img src="cert.JPG" alt="Certificates"> Certificates</a>
+            <a href="apart-from-resume.html"><img src="apart.JPG" alt="Apart"> Something Apart from Resume</a>
         </div>
-        <div class="content-wrapper text-center">
+        <div class="content-wrapper">
             <h1>About Me</h1>
-            <img src="self-photo.jpg" alt="Abhinav Sharma" class="profile-img">
-            <p>Passionate about leveraging technology to drive impactful business solutions, I am an analytical engineer with a strong interest in the fusion of technology and business. With expertise in programming languages such as Python and practical experience in business and data analytics, I possess a versatile skill set to tackle complex challenges. Proficient in utilizing tools like MS Office, Power BI, SQL, and Tableau for data processing and visualization, I excel in translating data into actionable insights that drive informed decision-making.</p>
-            <p>Driven by a curiosity to explore innovative projects, I thrive in multicultural, multidisciplinary environments. Armed with sharp analytical reasoning, problem-solving abilities, and excellent communication skills, I am eager to contribute to transformative initiatives. Particularly drawn to the fintech sector, I am keen on utilizing my expertise as a business and data analyst to make a meaningful impact in shaping the future of financial technology.</p>
+            <img src="self-photo.png" alt="Abhinav Sharma" class="profile-img">
+            <p>Hello! I'm Abhinav Sharma, a passionate Data Scientist based in Mumbai, India. With a background in electronics and telecommunications, I have developed a unique blend of technical expertise and creative problem-solving skills. I love exploring data to uncover hidden insights and help businesses make data-driven decisions. In my free time, you can find me reading about the latest tech trends or working on personal projects to hone my skills.</p>
+            <p>I believe in continuous learning and am always on the lookout for opportunities to grow both personally and professionally. Let's connect and create something amazing together!</p>
             <p>📧 <a href="mailto:abhinavsharmaji51@gmail.com">abhinavsharmaji51@gmail.com</a></p>
             <p>🔗 <a href="http://linkedin.com/in/abhinavsharma51">LinkedIn</a></p>
             <p>🌐 <a href="https://abhinavs.dcms.site/">Portfolio</a></p>
@@ -72,6 +97,4 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="https://maxcdn.bootstrapcdn.co
