@@ -33,6 +33,10 @@
             font-weight: 600;
             display: flex;
             align-items: center;
+            transition: color 0.3s;
+        }
+        .top-bar a:hover {
+            color: #ffcc00;
         }
         .top-bar img {
             width: 25px;
@@ -41,6 +45,11 @@
         }
         .contact-info {
             margin-top: 20px;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
         }
         .content-wrapper {
             background-color: rgba(0, 0, 0, 0.5);
@@ -62,6 +71,7 @@
 
     <div class="container text-center">
         <div class="top-bar d-flex justify-content-center">
+            <a href="index.html"><img src="home-icon.png" alt="Home"> Home</a>
             <a href="about.html"><img src="about.JPG" alt="About"> About</a>
             <a href="projects.html"><img src="projects.JPG" alt="Projects"> Projects</a>
             <a href="experience.html"><img src="experience.JPG" alt="Experience"> Experience</a>
